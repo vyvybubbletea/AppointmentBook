@@ -25,7 +25,11 @@ public class Main
         }
         b.printPeriod(4);
         System.out.println(b.makeAppointment(2, 4, 22));
-        b.printPeriod(4);
+
+        System.out.println(b.makeAppointment(3, 4, 3));
+
+        System.out.println(b.makeAppointment(2, 4, 30));
+
 
     }
 }
